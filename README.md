@@ -23,7 +23,7 @@ python -m pip install numpy --pre torch --force-reinstall --index-url https://do
 python -m pip install torch_scatter torch_sparse torch_cluster torch_spline_conv torch_geometric -f https://data.pyg.org/whl/torch-2.0.0+cu117.html
 ```
 
-#Dependencies
+# Dependencies
 
 ```
 python -m pip install pytorch-lightning
