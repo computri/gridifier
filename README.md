@@ -1,4 +1,6 @@
-# Learned gridification for efficient point cloud processing
+# Code repo for Learned gridification for efficient point cloud processing
+
+[![arXiv](https://img.shields.io/badge/arXiv-2307.14354-b31b1b.svg)](https://arxiv.org/pdf/2307.14354)
 
 Installation: works for CUDA11.7 + conda and pip
 
@@ -36,4 +38,10 @@ python -m pip install plotly
 python -m pip install natsort
 python -m pip install ml-collections
 python -m pip install pandas
+```
+
+Train ModelNet40 or ShapeNet models by passing the appropriate config file, e.g. (see /cfg folder for available configs):
+
+```
+python main.py --cfg=cfg/modelnet_cfg.py
 ```
